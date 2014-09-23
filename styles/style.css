@@ -1,0 +1,191 @@
+body {
+   font-family: 'Raleway', sans-serif;
+   margin: 0px;
+   padding: 0px;
+   background: #efefef;
+   border-top: 7px solid #999;
+  
+}
+
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * Circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:/*#e0e0e0*/ #009966;
+   stroke:#000000;
+   stroke-width:0.5;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+/*
+ * Circles around small, unrecognized countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.unxx
+{
+   opacity:0;
+   fill:/*#e0e0e0*/ #009966;
+   stroke:#000000;
+   stroke-width:0.3;
+}
+
+/*
+ * Circles around small countries, but with no permanent residents 
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.noxx
+{
+   opacity:0;
+   fill:/*#e0e0e0*/ #009966;
+   stroke:#000000;
+   stroke-width:0.5;
+}
+
+/*
+ * land
+ */
+.landxx
+{
+   fill: /*#e0e0e0*/ #009966;
+   stroke:#ccc;
+   stroke-width:0;
+   fill-rule:evenodd;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   fill: /*#e0e0e0*/ #009966;
+   stroke:#ffffff;
+   stroke-width:0.0;
+   fill-rule:evenodd;
+}
+
+/*
+ * Styles for nations with limited recognition
+ */
+.limitxx
+{
+   fill: /*#e0e0e0*/ #009966;
+   stroke:#ffffff;
+   stroke-width:0;
+   fill-rule:evenodd;
+}
+
+/*
+ * Styles for nations with no permanent population.
+ */
+.antxx
+{
+   fill: /*#e0e0e0*/ #009966;
+   stroke:#ffffff;
+   stroke-width:0;
+   fill-rule:evenodd;
+}
+
+/*
+ * Ocean
+ */
+.oceanxx
+{
+   opacity: 1;
+   color: #000000;
+   fill:/*#3366CC*/ #efefef;
+   stroke:#000;
+   stroke-width:0.0;
+   stroke-miterlimit:1;
+}
+path {
+   stroke:#ccc;
+   stroke-width:0;
+}
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+
+.map-container {
+   width: 100%;
+   overflow:hidden;
+   background: /*#3366CC*/ #efefef;
+   padding: 50px 0px;
+}
+svg {
+width: 100%;
+margin: 0 auto;
+}
+header {
+   background: #efefef;
+   text-align:center;
+   }
+   h1 {
+      padding: 80px 0px 0px 0px;
+      
+   }
+h1, h2 {
+   color: #3366CC;
+   font-weight: 300;
+   font-size: 72px;
+   margin: 0px;
+}
+h1 span {
+   color: #0099FF;
+}
+
+.instructions {
+   background: #efefef;
+   text-align:center;
+}
+h2 {
+   color: #0099FF;
+   font-size: 18px;
+   line-height: 40px;
+   letter-spacing:1px;
+   font-weight: 100;
+   
+}
